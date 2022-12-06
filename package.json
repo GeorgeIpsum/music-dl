@@ -1,0 +1,37 @@
+{
+  "name": "music-dl",
+  "version": "1.0.0",
+  "description": "Global script to download music using youtube-dl and place in some config'd folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgeIpsum/music-dl.git"
+  },
+  "keywords": [
+    "youtube-dl",
+    "music",
+    "download",
+    "node"
+  ],
+  "author": "Ibrahim Saberi <georgeipsum@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GeorgeIpsum/music-dl/issues"
+  },
+  "homepage": "https://github.com/GeorgeIpsum/music-dl#readme",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "command-exists": "^1.2.9",
+    "inquirer": "^9.1.4",
+    "meow": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/command-exists": "^1.2.0",
+    "@types/node": "^18.11.11",
+    "typescript": "^4.9.3",
+    "unbuild": "^1.0.1"
+  }
+}
